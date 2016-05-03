@@ -12,6 +12,7 @@
 		4502226C1CD9080600031477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4502226A1CD9080600031477 /* Main.storyboard */; };
 		4502226E1CD9080600031477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4502226D1CD9080600031477 /* Assets.xcassets */; };
 		450222711CD9080600031477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4502226F1CD9080600031477 /* LaunchScreen.storyboard */; };
+		450222791CD9087C00031477 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 450222781CD9087C00031477 /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4502226D1CD9080600031477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450222701CD9080600031477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450222721CD9080600031477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450222781CD9087C00031477 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		450222651CD9080600031477 /* day3 */ = {
 			isa = PBXGroup;
 			children = (
+				450222781CD9087C00031477 /* emoji zone.mp4 */,
 				450222661CD9080600031477 /* AppDelegate.swift */,
 				450222681CD9080600031477 /* ViewController.swift */,
 				4502226A1CD9080600031477 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450222711CD9080600031477 /* LaunchScreen.storyboard in Resources */,
+				450222791CD9087C00031477 /* emoji zone.mp4 in Resources */,
 				4502226E1CD9080600031477 /* Assets.xcassets in Resources */,
 				4502226C1CD9080600031477 /* Main.storyboard in Resources */,
 			);
