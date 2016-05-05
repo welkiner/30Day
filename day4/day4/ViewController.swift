@@ -7,12 +7,17 @@
 //
 
 import UIKit
-
+import SnapKit
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    var contentView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
