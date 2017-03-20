@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2338129E85E3F70187542388 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B6CEABB73C1202FEB16EB9 /* Pods.framework */; };
+		1AC900D8012E114F1452D46A /* Pods_day4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19964F168F1F88EA2A24127A /* Pods_day4.framework */; };
 		457FF0011CDA507D00580C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FF0001CDA507D00580C72 /* AppDelegate.swift */; };
 		457FF0031CDA507D00580C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FF0021CDA507D00580C72 /* ViewController.swift */; };
 		457FF0061CDA507D00580C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457FF0041CDA507D00580C72 /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		180698688979A13C116BBA6A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		19964F168F1F88EA2A24127A /* Pods_day4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		457FEFFD1CDA507D00580C72 /* day4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		457FF0001CDA507D00580C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		457FF0021CDA507D00580C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,8 +32,9 @@
 		457FF0131CDA57BF00580C72 /* LeftController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftController.xib; sourceTree = "<group>"; };
 		457FF0161CDA581B00580C72 /* RightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightController.swift; sourceTree = "<group>"; };
 		457FF0171CDA581B00580C72 /* RightController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightController.xib; sourceTree = "<group>"; };
+		5DA0CCBF7E658FC8621C79C4 /* Pods-day4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day4.release.xcconfig"; path = "Pods/Target Support Files/Pods-day4/Pods-day4.release.xcconfig"; sourceTree = "<group>"; };
+		82A17C46E22584E061FF13D1 /* Pods-day4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-day4/Pods-day4.debug.xcconfig"; sourceTree = "<group>"; };
 		95B6CEABB73C1202FEB16EB9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DAC474C4E6329E50356C8B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2338129E85E3F70187542388 /* Pods.framework in Frameworks */,
+				1AC900D8012E114F1452D46A /* Pods_day4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +54,8 @@
 			children = (
 				457FEFFF1CDA507D00580C72 /* day4 */,
 				457FEFFE1CDA507D00580C72 /* Products */,
-				967D23E4EC69E5C73E7D5E27 /* Pods */,
 				55C17B164F27500E7AC0B8DD /* Frameworks */,
+				A81ED68D8B8989F3CED86F5B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,15 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				95B6CEABB73C1202FEB16EB9 /* Pods.framework */,
+				19964F168F1F88EA2A24127A /* Pods_day4.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		967D23E4EC69E5C73E7D5E27 /* Pods */ = {
+		A81ED68D8B8989F3CED86F5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8DAC474C4E6329E50356C8B /* Pods.debug.xcconfig */,
-				180698688979A13C116BBA6A /* Pods.release.xcconfig */,
+				82A17C46E22584E061FF13D1 /* Pods-day4.debug.xcconfig */,
+				5DA0CCBF7E658FC8621C79C4 /* Pods-day4.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -107,12 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 457FF00F1CDA507D00580C72 /* Build configuration list for PBXNativeTarget "day4" */;
 			buildPhases = (
-				AA0EC51A382D4D82B9F343A4 /* Check Pods Manifest.lock */,
+				1F48CA766E87D3862398458B /* [CP] Check Pods Manifest.lock */,
 				457FEFF91CDA507D00580C72 /* Sources */,
 				457FEFFA1CDA507D00580C72 /* Frameworks */,
 				457FEFFB1CDA507D00580C72 /* Resources */,
-				A8C55CFC46A4C585EAF612D6 /* Embed Pods Frameworks */,
-				054719FCE5A7C762CB96BCEF /* Copy Pods Resources */,
+				073DCB37D70183DC5B7BA496 /* [CP] Embed Pods Frameworks */,
+				D7FE7E3C8E663F53ECA66C4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +132,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = welkiner;
 				TargetAttributes = {
 					457FEFFC1CDA507D00580C72 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -172,49 +175,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		054719FCE5A7C762CB96BCEF /* Copy Pods Resources */ = {
+		073DCB37D70183DC5B7BA496 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-day4/Pods-day4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8C55CFC46A4C585EAF612D6 /* Embed Pods Frameworks */ = {
+		1F48CA766E87D3862398458B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AA0EC51A382D4D82B9F343A4 /* Check Pods Manifest.lock */ = {
+		D7FE7E3C8E663F53ECA66C4B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-day4/Pods-day4-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -267,8 +270,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -312,8 +317,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -332,31 +339,36 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		457FF0101CDA507D00580C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8DAC474C4E6329E50356C8B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 82A17C46E22584E061FF13D1 /* Pods-day4.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = day4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = welkiner.day4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		457FF0111CDA507D00580C72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 180698688979A13C116BBA6A /* Pods.release.xcconfig */;
+			baseConfigurationReference = 5DA0CCBF7E658FC8621C79C4 /* Pods-day4.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = day4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = welkiner.day4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
